@@ -8,8 +8,8 @@ steps:
     host: 107.167.190.8
     username: centos
     port: 22
-    key: 
-      from_secret: ssh_key
++   key: 
++     from_secret: ssh_key
     script:
       - mkdir test1
     
