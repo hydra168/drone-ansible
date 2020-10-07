@@ -1,0 +1,15 @@
+kind: pipeline
+name: default
+
+steps:
+- name: ssh commands
+  image: appleboy/drone-ssh
+  settings:
+    host: 107.167.190.8
+    username: centos
++   key:
++     from_secret: go-api
+    port: 22
+    script:
+      - mkdir test1
+    
