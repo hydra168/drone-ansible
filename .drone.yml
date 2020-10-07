@@ -7,7 +7,7 @@ steps:
   settings:
     host: 107.167.190.8
     username: centos
-    secrets: [ ssh_key ]
+    secrets: [ ssh-key ]
 #    passowrd:
 #      from_secret: go-api
     port: 22
