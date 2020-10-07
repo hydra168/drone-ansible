@@ -6,10 +6,9 @@ steps:
   image: appleboy/drone-ssh
   settings:
     host: 107.167.190.8
-    username: 
-      from_secret: host
+    username: centos
     port: 22
-    password: 
+    key: 
       from_secret: ssh_key
     script:
       - mkdir test1
