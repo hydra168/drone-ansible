@@ -7,10 +7,9 @@ steps:
   settings:
     host: 107.167.190.8
     username: centos
-    secrets: [ ssh-key ]
-#    passowrd:
-#      from_secret: go-api
     port: 22
++   key:
++     from_secret: ssh_key
     script:
       - mkdir test1
     
