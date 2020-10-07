@@ -9,7 +9,7 @@ steps:
     username: 
       from_secret: host
     port: 22
-    key: 
+    password: 
       from_secret: ssh_key
     script:
       - mkdir test1
