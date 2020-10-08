@@ -4,13 +4,13 @@ name: default
 steps:
 - name: ssh commands
   image: appleboy/drone-ssh
+  environment:
+    SSH_KEY:
+      from_secret: ssh_key
   settings:
     host: 107.167.190.8
     username: centos
     port: 22
-   environment:
-     SSH_KEY:
-       from_secret: ssh_key
   commands:
   - echo "$SSH_KEY"
     
