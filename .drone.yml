@@ -13,4 +13,5 @@ steps:
     port: 22
   commands:
   - echo "$ssh_key"
+  - mkdir aaaa
     
