@@ -11,7 +11,7 @@ steps:
     host: 107.167.190.8
     username: centos
     port: 22
-  commands:
+  scripts:
   - echo "$ssh_key"
   - mkdir aaaa
     
