@@ -12,5 +12,5 @@ steps:
     username: centos
     port: 22
   commands:
-  - echo "$SSH_KEY"
+  - echo "$ssh_key"
     
